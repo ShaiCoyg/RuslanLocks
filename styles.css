@@ -3,26 +3,23 @@ body {
     background-color: #1c1d25;
 }
 
-.sectionOne {
+.first {
     height: 100vh;
     color: white;
     font-size: 40px;
 }
 
-.sectionTwo {
+.second {
     background-color: white;
+    justify-content: space-around;
+
 }
 
-.sectionThree {
+.third {
     background-color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.sectionOne img {
-    height: 200px;
-    width: 200px;
 }
 
 footer {
@@ -31,6 +28,11 @@ footer {
     text-align: center;
     font-size: 13px;
     font-weight: light;
+}
+
+.first img {
+    height: 200px;
+    width: 200px;
 }
 
 nav {
@@ -44,10 +46,6 @@ nav ul {
     list-style-type: none;
     width: 1000px;
     font-size: 30px;
-}
-
-.no-width {
-    width: 130px;
 }
 
 li {
@@ -71,11 +69,21 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+
 h3 {
     font-size: 22px;
 }
 
-.frontPage {
+.about-width {
+    width: 130px;
+}
+
+.first-content {
     display: flex;
     height: 100%;
     justify-content: center;
@@ -84,17 +92,18 @@ h3 {
     margin-top: -70px;
 }
 
-.frontPageText {
+.first-text {
     margin-top: -200px;
     justify-content: center;
     text-align: center;
 }
 
-.num {
-    font-family: "Helvetica Neue";
+.whatsapp-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.contactNow {
+.contact-now {
     margin-top: 50px;
     font-size: 30px;
 }
@@ -120,11 +129,8 @@ p {
 }
 
 .whatsapp {
-    display: flex;
-    justify-content: flex;
     margin-top: -90px;
     width: max-content;
-
 }
 
 .whatsapp img {
@@ -132,25 +138,12 @@ p {
     width: 100px;
 }
 
-.sectionTwo {
-    justify-content: space-around;
-}
-
-.flexOne {
+.second-flex-container {
     display: flex;
-}
-h2 {
-    font-size: 60px;
-    margin-top: 30px;
-    text-align: center;
+    justify-content: space-between;
 }
 
-.information {
-    text-align: right;
-    margin-top: none;
-}
-
-.infoimage img{
+.second-image-container img{
     width: 300px;
     height: 300px;
     border-radius: 150px;
@@ -158,18 +151,23 @@ h2 {
     margin-top: -100px;
 }
 
-.infoOpener {
-    font-size: 20px;
+.about-opener {
+    font-size: 23px;
     font-weight: bold;
 }
 
-.information p {
+.second-about p {
     font-size: 25px;
     font-weight: light;
-    margin-right: 10px;
+    text-align: right;
+    margin-top: none;
+    margin-right: 15px;
 }
 
-.infoimage {
+.second-about {
+    width: 1000px;
+}
+.second-image-container {
     display: flex;
     align-items: center;
 }
@@ -177,7 +175,7 @@ h2 {
 .service-card {
     width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    box-shadow: 5px 5px 20px rgb(84, 70, 70);
     margin: 10px;
 }
 
@@ -213,54 +211,62 @@ a {
     color: white;
 }
 
-img.arrow {
-    justify-content: center;
-    align-items: center;
+.arrow img {
     height: 100px;
     width: 100px;
     margin-top: 50px;
 }
 
 @media only screen and (max-width: 1000px) {
-    .service-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
     li {
         font-size: 40px;
     }
+    
     h1 {
         font-size: 120px;
     }
+
+    .first-text-part-one {
+        margin-top: -100px;
+    }
+
+    .first-text-part-two {
+        margin-top: 200px;
+    }
+
     .summary {
         font-size: 25px;
     }
-    .contactNow {
+
+    .contact-now {
         font-size: 70px;
         color: rgb(237, 7, 34);
     }
+
     div.num {
         font-size: 120px;
         color: rgb(237, 7, 34);
         font-weight: bold;
     }
-    .infoimage img{
+
+    .whatsapp {
+        margin-top: 200px;
+    }
+
+    .arrow img  {
+        margin-bottom: -300px;
+    }
+
+    .service-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .second-image-container img{
         width: 200px;
         height: 200px;
         border-radius: 150px;
         padding-bottom: 0;
         margin-top: 100;
-    }
-    .whatsapp {
-        margin-top: 200px;
-    }
-    .partone {
-        margin-top: -100px;
-    }
-    .parttwo {
-        margin-top: 200px;
-    }
-    img.arrow  {
-        margin-bottom: -300px;
     }
 }
