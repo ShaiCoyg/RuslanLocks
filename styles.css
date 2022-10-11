@@ -1,0 +1,266 @@
+body {
+    font-family: 'arimo';
+    background-color: #1c1d25;
+}
+
+.sectionOne {
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+.sectionTwo {
+    background-color: white;
+}
+
+.sectionThree {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectionOne img {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    height: auto;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: light;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    width: 1000px;
+    font-size: 30px;
+}
+
+.no-width {
+    width: 130px;
+}
+
+li {
+    width: 200px;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+li a:hover, h1 a:hover {
+    color: hsl(195, 28%, 43%);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.frontPage {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.frontPageText {
+    margin-top: -200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.num {
+    font-family: "Helvetica Neue";
+}
+
+.contactNow {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+div.num {
+    font-size: 70px;
+    color: #FD1C03;
+    font-weight: bold;
+}
+
+.summary {
+    font-size: 20px;
+}
+
+.guarantees {
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    font-weight: light;
+    font-size: 30px;
+}
+
+.whatsapp {
+    display: flex;
+    justify-content: flex;
+    margin-top: -90px;
+    width: max-content;
+
+}
+
+.whatsapp img {
+    height: 100px;
+    width: 100px;
+}
+
+.sectionTwo {
+    justify-content: space-around;
+}
+
+.flexOne {
+    display: flex;
+}
+h2 {
+    font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.information {
+    text-align: right;
+    margin-top: none;
+}
+
+.infoimage img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    padding-bottom: 0;
+    margin-top: -100px;
+}
+
+.infoOpener {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.information p {
+    font-size: 25px;
+    font-weight: light;
+    margin-right: 10px;
+}
+
+.infoimage {
+    display: flex;
+    align-items: center;
+}
+
+.service-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.service-image {
+    width: 300px;
+    height: 200px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.service-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+.subtext {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img.arrow {
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .service-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 120px;
+    }
+    .summary {
+        font-size: 25px;
+    }
+    .contactNow {
+        font-size: 70px;
+        color: rgb(237, 7, 34);
+    }
+    div.num {
+        font-size: 120px;
+        color: rgb(237, 7, 34);
+        font-weight: bold;
+    }
+    .infoimage img{
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+        padding-bottom: 0;
+        margin-top: 100;
+    }
+    .whatsapp {
+        margin-top: 200px;
+    }
+    .partone {
+        margin-top: -100px;
+    }
+    .parttwo {
+        margin-top: 200px;
+    }
+    img.arrow  {
+        margin-bottom: -300px;
+    }
+}
