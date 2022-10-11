@@ -98,11 +98,6 @@ h3 {
     text-align: center;
 }
 
-.whatsapp-container {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .contact-now {
     margin-top: 50px;
     font-size: 30px;
@@ -129,7 +124,7 @@ p {
 }
 
 .whatsapp {
-    margin-top: -90px;
+    margin-top: -150px;
     width: max-content;
 }
 
